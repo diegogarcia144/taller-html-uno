@@ -1,0 +1,38 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    hr {
+      margin: 30px 0;
+      border: 1px solid #ccc;
+    }
+    blockquote {
+      margin: 20px;
+      padding: 15px;
+      background-color: #f0f0f0;
+      border-left: 5px solid #999;
+    }
+    pre {
+      background-color: #222;
+      color: #0f0;
+      padding: 10px;
+      overflow: auto;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    mark {
+      background-color: yellow;
+    }
+    abbr {
+      text-decoration: dotted underline;
+      cursor: help;
+    }
+    span.highlight {
+      color: darkblue;
+      font-weight: bold;
+    }
+  

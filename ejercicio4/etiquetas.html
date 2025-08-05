@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Multimedia HTML5</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+  <h1>Ejemplo de Elementos Multimedia y Gráficos en HTML5</h1>
+
+  <!-- Imagen con figure -->
+  <figure>
+    <img src="diseno.jpg" alt="Imagen de ejemplo">
+    <figcaption>Imagen de ejemplo con figcaption.</figcaption>
+  </figure>
+
+  <hr>
+
+  <!-- Audio con fuente alternativa -->
+  <h2>Audio Embebido</h2>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <hr>
+
+  <!-- Video con track de subtítulos -->
+  <h2>Video Embebido</h2>
+  <video controls poster="https://via.placeholder.com/600x300">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+    <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+    Tu navegador no soporta el video HTML5.
+  </video>
+
+  <hr>
+
+  <!-- Canvas -->
+  <h2>Canvas (Gráfico dinámico)</h2>
+  <canvas id="miCanvas" width="300" height="150"></canvas>
+
+  <hr>
+
+  <!-- SVG -->
+  <h2>SVG (Gráfico vectorial)</h2>
+  <svg width="300" height="150">
+    <rect x="10" y="10" width="100" height="100" fill="orange" stroke="black" stroke-width="2"/>
+    <circle cx="200" cy="60" r="40" fill="skyblue" stroke="black" stroke-width="2"/>
+    <text x="80" y="140" fill="black">Texto SVG</text>
+  </svg>
+<script src="main.js"></script>
+</body>
+</html>
